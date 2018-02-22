@@ -1,0 +1,76 @@
+@import "../../styles";
+
+/*--- Header ---*/
+nav { 
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
+  display: flex;
+  justify-content: space-between;
+}
+.nav { width: 50%; }
+.nav-left { 
+  width: 50%;
+  @include mq(large) { width: 25%; } 
+}
+.nav-right {
+  width: 100%;
+  @include mq(large) { width: 75%; } 
+}
+
+.brand {
+  align-items: center;
+  display: flex;
+}
+a span { 
+  color: $primary; 
+  font-weight: 500;
+  letter-spacing: .5px;
+  padding-left: 10px;
+}
+
+
+/*--- Logo ---*/
+.brand-small { @include mq(large) { display: none; } }
+.brand-large { 
+  display: none;
+  @include mq(large) { display: flex; }
+}
+
+
+/*--- Search Icon ---*/
+.icon { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+  @include mq(large) { display: none; }
+}
+
+
+/*--- Search Box ---*/
+.search-small {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  @include mq(large) { display: none; }
+}
+.search-large { 
+  display: none;
+  justify-content: center;
+  @include mq(large) { 
+    display: flex; 
+    width: 60%;
+  }
+}
+input { 
+  border-radius: 1px;
+  width: 72%; 
+  @include mq(large) { width: 100% !important; }
+}
+button { 
+  border: 0;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-left: 10px; 
+  @include mq(large) { display: none; }
+}

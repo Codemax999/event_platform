@@ -1,0 +1,16 @@
+<div class="search-small">
+  <swipe-events *ngIf="searchQuery" [title]="searchQuery" [events]="search"></swipe-events>
+  <list-item *ngIf="recent.length > 0" [title]="'Recent'" [events]="recent"></list-item>
+  <list-category></list-category>
+</div>
+
+<div class="search-large">
+  <div class="search-left">
+    <list-item *ngIf="recent.length > 0" [title]="'Recent'" [events]="recent"></list-item>
+    <list-category></list-category>
+  </div>
+  <div class="search-right">
+    <swipe-events *ngIf="searchQuery" [title]="searchQuery" [events]="search"></swipe-events>
+    <swipe-events *ngIf="suggested.length > 0" [title]="'Suggested'" [events]="suggested"></swipe-events>
+  </div>
+</div>

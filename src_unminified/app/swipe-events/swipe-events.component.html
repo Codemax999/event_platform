@@ -1,0 +1,23 @@
+<!-- Header and See All -->
+<div class="category-header">
+  <span>{{ title }}</span> 
+  <button *ngIf="!title.includes('results')" type="button" class="btn btn-light">See all</button>
+</div>
+
+<!-- Side Swipe of Cards -->
+<div class="side-swipe" [ngClass]="{'small-side-swipe': events.length === 0}">
+  <div class="card" *ngFor="let event of events">
+    <img [src]="event.event_flyer" class="card-img-top">
+    <div class="card-body">
+      <h4 class="card-title">{{ event.event_name }}</h4>
+      <div class="card-icon-row">
+        <img src="assets/icons/location.svg">
+        <p class="card-text">{{ event.event_venue_name }}</p>
+      </div>
+      <div class="card-icon-row">
+        <img src="assets/icons/clock.svg">
+        <p class="card-text">{{ event.event_start | date: "EEE'.' MMM d',' h':'mm a" }}</p>
+      </div>
+    </div>
+  </div>
+</div>

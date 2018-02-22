@@ -1,0 +1,26 @@
+@import "../../styles";
+
+.discover-small { 
+  @include mq(large) { display: none; } 
+}
+
+.discover-large {
+  display: none;
+  justify-content: space-around;
+  min-width: 620px;
+  width: 100%;
+  @include mq(large) { display: flex; }
+}
+
+.discover-left { 
+  height: calc(100vh - 50px);
+  min-width: 250px; 
+  overflow-x: scroll;
+}
+.discover-right { 
+  border-left: 1px solid $happ-shade-placeholder;
+  height: calc(100vh - 50px);
+  min-width: 350px; 
+  overflow-x: scroll;
+  padding-left: 15px;
+}

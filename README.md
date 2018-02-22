@@ -1,2 +1,3 @@
-# event_platform
-Category based event discovery platform w/ Angular 2+
+# event platform
+Categroy based event discovery
+[View Online](https://codemax999.github.io/event_platform/)

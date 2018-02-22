@@ -1,0 +1,35 @@
+@import "../../styles";
+
+.side-swipe {
+  display: flex;
+  height: 255px;
+  overflow-y: scroll;
+  width: 100%;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.small-side-swipe { 
+  display: flex;
+  height: 10px; 
+  overflow-y: scroll;
+  width: 100%;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.card {
+  @extend %card;
+  @extend %card-details;
+  height: 235px;
+  margin: 10px 5px;
+  min-width: 275px;
+  width: 275px;
+
+  .card-img-top {
+    background: $happ-shade-placeholder;
+    height: 125px;
+    object-fit: cover;
+    width: 100%;
+  }
+}

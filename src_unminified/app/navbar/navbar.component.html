@@ -1,0 +1,51 @@
+<nav class="navbar fixed-top navbar-light bg-light">
+
+  <div class="nav nav-left">
+
+    <!-- Home Small  -->
+    <a class="navbar-brand brand brand-small" *ngIf="!searchBar()">
+      <img src="assets/images/logo.png" width="35" height="35" class="d-inline-block">
+      <span>Happ</span> 
+    </a>
+
+    <!-- Home Large -->
+    <a class="navbar-brand brand brand-large" (click)="clearSearch()" [routerLink]="['/']">
+      <img src="assets/images/logo.png" width="35" height="35" class="d-inline-block">
+      <span>Happ</span> 
+    </a>
+  </div>
+
+  <!-- Search Icon -->
+  <a class="icon" [routerLink]="['search']" *ngIf="!searchBar()">
+    <div class="wave"></div>
+    <img src="assets/icons/search.svg" width="30" height="30">
+  </a>
+
+  <div class="nav nav-right">
+
+    <!-- Search Bar Small -->
+    <form class="form-inline search-small" *ngIf="searchBar()" [formGroup]="form">
+      <input class="form-control" 
+        type="text" 
+        placeholder="Search" 
+        aria-label="Search" 
+        formControlName="search"
+        [(ngModel)]="search">
+      <button class="btn btn-sm align-middle btn-outline-secondary" 
+        (click)="clearSearch()"
+        [routerLink]="['/']">
+        Cancel
+      </button>
+    </form>
+
+    <!-- Search Bar Large -->
+    <form class="form-inline search-large" [routerLink]="['search']" [formGroup]="form">
+      <input class="form-control" 
+        type="text" 
+        placeholder="Search" 
+        aria-label="Search" 
+        formControlName="search"
+        [(ngModel)]="search">
+    </form>
+  </div>
+</nav>

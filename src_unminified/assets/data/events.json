@@ -1,0 +1,164 @@
+{"events": [
+  {
+    "event_id": 0,
+    "event_name": "punk love 2017",
+    "event_flyer": "assets/images/flyer_1.jpg",
+    "event_venue_name": "Propaganda",
+    "event_start": 1505952057000,
+    "event_score": 100,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 1,
+    "event_name": "lords of acid",
+    "event_flyer": "assets/images/flyer_5.jpg",
+    "event_venue_name": "Respectable Street",
+    "event_start": 1505962857000,
+    "event_score": 130,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 2,
+    "event_name": "zac brown band",
+    "event_flyer": "assets/images/flyer_11.jpg",
+    "event_venue_name": "Perfect Vodka Amphitheater",
+    "event_start": 1506034857000,
+      "event_score": 400,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 3,
+    "event_name": "melvins",
+    "event_flyer": "assets/images/flyer_12.jpg",
+    "event_venue_name": "Culture Room",
+    "event_start": 1506045657000,
+    "event_score": 10,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 4,
+    "event_name": "warped tour",
+    "event_flyer": "assets/images/flyer_14.jpeg",
+    "event_venue_name": "Mizner Park",
+    "event_start": 1507644057000,
+    "event_score": 500,
+    "event_highlighted": true
+  },
+  {
+    "event_id": 5,
+    "event_name": "mad decent block party",
+    "event_flyer": "assets/images/flyer_13.jpg",
+    "event_venue_name": "Revolution Live",
+    "event_start": 1508544057000,
+    "event_score": 450,
+    "event_highlighted": true
+  },
+  {
+    "event_id": 6,
+    "event_name": "abyss w/ yepecc",
+    "event_flyer": "assets/images/flyer_2.jpg",
+    "event_venue_name": "Propaganda",
+    "event_start": 1506132057000,
+    "event_score": 140,
+    "event_highlighted": true
+  },
+  {
+    "event_id": 7,
+    "event_name": "unwed sailor",
+    "event_flyer": "assets/images/flyer_6.jpg",
+    "event_venue_name": "Voltaire",
+    "event_start": 1506211257000,
+    "event_score": 240,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 8,
+    "event_name": "jack johnson",
+    "event_flyer": "assets/images/flyer_10.jpg",
+    "event_venue_name": "Perfect Vodka Amphitheater",
+    "event_start": 1506376857000,
+    "event_score": 450,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 9,
+    "event_name": "que lastima",
+    "event_flyer": "assets/images/flyer_3.jpg",
+    "event_venue_name": "Propaganda",
+    "event_start": 1506632457000,
+    "event_score": 330,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 10,
+    "event_name": "slightly stoopid",
+    "event_flyer": "assets/images/flyer_15.jpeg",
+    "event_venue_name": "Mizner Park",
+    "event_start": 1508972457000,
+    "event_score": 100,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 11,
+    "event_name": "pro teens and dirtbike",
+    "event_flyer": "assets/images/flyer_7.jpg",
+    "event_venue_name": "Respectable Street",
+    "event_start": 1506470457000,
+    "event_score": 190,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 12,
+    "event_name": "guavatron",
+    "event_flyer": "assets/images/flyer_4.jpg",
+    "event_venue_name": "Propaganda",
+    "event_start": 1506564057000,
+    "event_score": 100,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 13,
+    "event_name": "of mice and men",
+    "event_flyer": "assets/images/flyer_18.jpeg",
+    "event_venue_name": "Revolution Live",
+    "event_start": 1509750057000,
+    "event_score": 100,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 14,
+    "event_name": "set and setting",
+    "event_flyer": "assets/images/flyer_8.jpg",
+    "event_venue_name": "Voltaire",
+    "event_start": 506729657000,
+    "event_score": 350,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 15,
+    "event_name": "a day to remember",
+    "event_flyer": "assets/images/flyer_16.jpeg",
+    "event_venue_name": "Perfect Vodka Amphitheater",
+    "event_start": 1511391657000,
+    "event_score": 100,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 16,
+    "event_name": "underoath",
+    "event_flyer": "assets/images/flyer_17.jpeg",
+    "event_venue_name": "Revolution Live",
+    "event_start": 1510887657000,
+    "event_score": 100,
+    "event_highlighted": false
+  },
+  {
+    "event_id": 17,
+    "event_name": "peter hook and the light",
+    "event_flyer": "assets/images/flyer_9.png",
+    "event_venue_name": "Respectable Street",
+    "event_start": 1506823257000,
+    "event_score": 100,
+    "event_highlighted": false
+  }
+]}

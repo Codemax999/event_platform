@@ -1,0 +1,29 @@
+@import "../../styles";
+
+.search-small {
+  @include mq(large) { display: none; }
+}
+
+.search-large {
+  display: none;
+  justify-content: space-around;
+  min-width: 620px;
+  width: 100%;
+  @include mq(large) { display: flex; }
+}
+
+.search-left {
+  background: #fff;
+  border-right: 1px solid $happ-shade-placeholder;
+  height: calc(100vh - 50px);
+  min-width: 350px; 
+  overflow-x: scroll;
+  padding-right: 15px;
+}
+.search-right { 
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 50px);
+  min-width: 250px; 
+  overflow-x: scroll;
+}

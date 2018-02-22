@@ -1,0 +1,23 @@
+<!-- Header and See All -->
+<div class="category-header">
+  <span>{{ title }}</span>
+  <button type="button" class="btn btn-light">See all</button>
+</div>
+
+<!-- List of Cards -->
+<div class="card" *ngFor="let event of events">
+  <div class="card-list-img">
+    <img [src]="event.event_flyer">
+  </div>
+  <div class="card-body">
+    <h4 class="card-title">{{ event.event_name }}</h4>
+    <div class="card-icon-row">
+      <img src="assets/icons/location.svg">
+      <p class="card-text">{{ event.event_venue_name }}</p>
+    </div>
+    <div class="card-icon-row">
+      <img src="assets/icons/clock.svg">
+      <p class="card-text">{{ event.event_start | date: "EEE'.' MMM d',' h':'mm a" }}</p>
+    </div>
+  </div>
+</div>

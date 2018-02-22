@@ -1,0 +1,20 @@
+<!-- Mobile -->
+<div class="discover-small">
+  <swipe-events *ngIf="thisWeek.length > 0" [title]="'This Week'" [events]="thisWeek"></swipe-events>
+  <list-item *ngIf="highlighted.length > 0" [title]="'Highlighted'" [events]="highlighted"></list-item>
+  <swipe-events *ngIf="nextWeek.length > 0" [title]="'Next Week'" [events]="nextWeek"></swipe-events>
+  <list-category></list-category>
+</div>
+
+<!-- Larger Screens -->
+<div class="discover-large">
+  <div class="discover-left">
+    <swipe-events *ngIf="thisWeek.length > 0" [title]="'This Week'" [events]="thisWeek"></swipe-events>
+    <swipe-events *ngIf="nextWeek.length > 0" [title]="'Next Week'" [events]="nextWeek"></swipe-events>
+  </div>
+
+  <div class="discover-right">
+    <list-item *ngIf="highlighted.length > 0" [title]="'Highlighted'" [events]="highlighted"></list-item>
+    <list-category></list-category>
+  </div>
+</div>
